@@ -13,10 +13,16 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 
 ## 🚀 Executar localmente
+```
+criar banco no pgAdmin
+criar aruivo .env
+```
 
 Executar os seguintes comandos na pasta do projeto
 ```
 composer install
+```
+```
 php artisan migrate:refresh --seed
 php artisan serve
 ```
