@@ -16,6 +16,7 @@ Mencione as ferramentas que você usou para criar seu projeto
 
 Executar os seguintes comandos na pasta do projeto
 ```
+composer install
 php artisan migrate:refresh --seed
 php artisan serve
 ```
